@@ -26,7 +26,7 @@ const Home1Page: React.FC = () => {
         <HomeLayoutcustom1 className="flex flex-col font-roboto gap-10 items-center justify-start max-w-[1140px] mx-auto w-full" />
         <HomeLayout219 className="flex flex-col font-roboto gap-6 items-start justify-center max-w-[1140px] mx-auto w-full" />
         <HomeTestimonial4 className="flex flex-col font-roboto gap-5 items-center justify-start max-w-[1140px] mx-auto w-full" />
-        <HomeListiconrelume className="sm:flex-col flex-row font-roboto gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center max-w-[1140px] mx-auto py-[5px] w-full" />
+        <HomeListiconrelume className="md:flex sm:flex-col flex-row font-roboto gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center max-w-[1140px] mx-auto py-[5px] w-full" />
         <HomeContent className="flex flex-col font-roboto gap-6 items-center justify-start max-w-[1140px] mx-auto py-[5px] w-full" />
         <HomeFooter3desktop className="flex flex-col font-roboto gap-5 items-center justify-start max-w-[1140px] mx-auto py-2.5 w-full" />
       </div>

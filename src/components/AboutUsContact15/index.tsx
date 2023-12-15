@@ -122,7 +122,7 @@ const AboutUsContact15: React.FC<AboutUsContact15Props> = (props) => {
             </List>
           </div>
           <Img
-            className="flex-1 h-[500px] md:h-auto max-h-[500px] object-cover rounded-[20px] sm:w-[] md:w-[]"
+            className="sm:flex flex-1 sm:flex-col h-[500px] sm:h-[] md:h-auto max-h-[500px] sm:max-h-[] object-cover rounded-[20px] sm:w-[] md:w-[]"
             src="images/img_heroanimation_2.png"
             alt="heroanimation_One"
           />

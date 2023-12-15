@@ -140,7 +140,7 @@ const HomeListiconrelume: React.FC<HomeListiconrelumeProps> = (props) => {
             </Button>
           </div>
         </div>
-        <div className="flex flex-1 flex-col gap-[26.58px] items-center justify-center w-full">
+        <div className="flex flex-1 flex-col gap-[26.58px] items-center justify-center md:justify-end w-full">
           <div className="flex flex-col gap-[20.42px] items-center justify-start w-full">
             <Img
               className="h-10 w-10"

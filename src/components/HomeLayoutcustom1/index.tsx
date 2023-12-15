@@ -75,7 +75,7 @@ const HomeLayoutcustom1: React.FC<HomeLayoutcustom1Props> = (props) => {
               {props?.featuredpropertOne}
             </Text>
           </div>
-          <div className="flex flex-row items-start justify-between p-2.5 w-48">
+          <div className="flex flex-row items-start justify-between sm:justify-end p-2.5 w-48">
             <Text
               className="text-gray-400 text-lg w-auto"
               size="txtRobotoRegular18"
@@ -104,7 +104,7 @@ const HomeLayoutcustom1: React.FC<HomeLayoutcustom1Props> = (props) => {
           </Button>
         </div>
         <List
-          className="sm:flex-col flex-row gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center w-full"
+          className="md:flex sm:flex-col flex-row gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center w-full"
           orientation="horizontal"
         >
           <div className="bg-white-A700 border border-gray-400 border-solid flex flex-1 flex-col items-start justify-start rounded-[20px] w-full">

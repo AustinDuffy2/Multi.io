@@ -1,5 +1,7 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
+
 import { Img, Text } from "components";
 
 type HomeFooter3desktopProps = Omit<
@@ -45,6 +47,8 @@ type HomeFooter3desktopProps = Omit<
   }>;
 
 const HomeFooter3desktop: React.FC<HomeFooter3desktopProps> = (props) => {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className={props.className}>
@@ -130,40 +134,46 @@ const HomeFooter3desktop: React.FC<HomeFooter3desktopProps> = (props) => {
                 {props?.userhomelink}
               </Text>
               <Text
-                className="text-base text-black-900 w-full"
+                className="common-pointer text-base text-black-900 w-full"
                 size="txtRobotoSemiBold16"
+                onClick={() => navigate("/aboutus")}
               >
                 {props?.useraboutuslink}
               </Text>
               <Text
-                className="text-base text-black-900 w-full"
+                className="common-pointer text-base text-black-900 w-full"
                 size="txtRobotoSemiBold16"
+                onClick={() => navigate("/search")}
               >
                 {props?.userpropertysearchlink}
               </Text>
               <Text
-                className="text-base text-black-900 w-full"
+                className="common-pointer text-base text-black-900 w-full"
                 size="txtRobotoSemiBold16"
+                onClick={() => navigate("/propertydetails")}
               >
                 {props?.userpropertydetaillink}
               </Text>
               <Text
-                className="text-base text-black-900 w-full"
+                className="common-pointer text-base text-black-900 w-full"
                 size="txtRobotoSemiBold16"
+                onClick={() => navigate("/aiplatform")}
               >
                 {props?.useraiplatformlink}
               </Text>
             </div>
             <div className="flex flex-1 flex-col gap-[11.52px] items-start justify-start w-full">
               <Text
-                className="text-base text-black-900 w-full"
+                className="common-pointer text-base text-black-900 w-full"
                 size="txtRobotoSemiBold16"
+                onClick={() => navigate("/search")}
               >
                 {props?.usersearchlink}
               </Text>
               <Text
-                className="text-base text-black-900 w-full"
+                className="common-pointer text-base text-black-900 w-full"
                 size="txtRobotoSemiBold16"
+                onClick={() => navigate("/contact")}
               >
                 {props?.usercontactuslink}
               </Text>

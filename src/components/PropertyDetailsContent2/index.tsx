@@ -55,7 +55,7 @@ const PropertyDetailsContent2: React.FC<PropertyDetailsContent2Props> = (
             </div>
           </div>
           <Img
-            className="flex-1 h-[500px] md:h-auto max-h-[500px] object-cover sm:w-[] md:w-[]"
+            className="flex-1 h-[500px] md:h-auto max-h-[500px] sm:max-h-[] object-cover sm:w-[] md:w-[]"
             src="images/img_heroanimation_4.png"
             alt="heroanimation_One"
           />

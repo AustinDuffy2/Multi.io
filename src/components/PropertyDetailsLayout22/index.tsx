@@ -70,7 +70,7 @@ const PropertyDetailsLayout22: React.FC<PropertyDetailsLayout22Props> = (
             </div>
           </div>
           <Img
-            className="flex-1 h-[500px] md:h-auto max-h-[500px] object-cover sm:w-[] md:w-[]"
+            className="flex-1 h-[500px] sm:h-[] md:h-auto max-h-[500px] sm:max-h-[] object-cover sm:w-[] md:w-[]"
             src="images/img_heroanimation_3.png"
             alt="heroanimation"
           />
